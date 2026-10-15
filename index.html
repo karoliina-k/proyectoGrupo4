@@ -73,11 +73,11 @@
    
     <h4>Tipo de usuario</h4><br>
 <div>
-    <label class="opcion">
+    <label class="opcion-usuario">
     <input type="radio" name="eleccion" value="opcion1">Propietario
 </label>
 
-<label class="opcion">
+<label class="opcion-usuario">
     <input type="radio" name="eleccion" value="opcion2">Inquilino
 </label>
 </div>
@@ -116,8 +116,53 @@ Has iniciado sesión como Inquilino
 Inicio > Buscar alojamiento <br>
 <a href="/login">Cerrar sesión</a>
 </p>
+<div>
+<h4>1 - Tipo de Alojamiento</h4>
+<div>
+    <label class="opcion-alojamiento">
+    <input type="radio" name="eleccion" value="opcion1">Piso
+</label>
+
+<label class="opcion-alojamiento">
+    <input type="radio" name="eleccion" value="opcion2">Habitación 
+</label><br>
+<h4><label for="zona">2 - Zona</label></h4>
+
+<select name="zona" id="zona">
+    <option value="zona0">Seleccionar la Zona</option>
+<option value="zona1">Barcelona Sants</option>
+<option value="zona2">Ciutat Vella</option>
+</select>
+
+<h4><label for="precio">3 - Precio</label></h4>
+
+<select name="precio" id="precio">
+    <option value="precio0">Precio mínimo</option>
+<option value="precio1">25.000€</option>
+<option value="precio2">50.000€</option>
+</select>
+<br>
+<select name="precio" id="precio">
+    <option value="precio100">Precio máximo</option>
+<option value="precio1">5.000.000€</option>
+<option value="precio2">10.000.000€</option>
+</select>
+<br>
+<button type="submit">Buscar Alojamiento</button>
+</div>
 
 </div>
+
+<div>
+    <!--Página 05_Detalle_Alojamiento-->
+    <h2>Detalle Alojamiento</h2>
+    Has iniciado sesión como Inquilino        
+Inicio > Buscar alojamiento >  Detalle alojamiento<br>
+<a href="/login">Cerrar sesión</a>
+<img src="/imagenes/623f895f6f5db6813f8a97cc5ee32bcb1bec9e46.jpg" alt="">
+
+</div>
+
 
 </body>
 </html>
